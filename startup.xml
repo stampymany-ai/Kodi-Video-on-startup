@@ -26,11 +26,13 @@
         <control type="group">
             <visible>Player.HasVideo</visible>
             <control type="image">
-                <include>FullscreenDimensions</include>
+                <width>$INFO[System.ScreenWidth]</width>
+<height>$INFO[System.ScreenHeight]</height>
                 <texture>black.png</texture>
             </control>
             <control type="videowindow">
-                <include>FullscreenDimensions</include>
+                <width>$INFO[System.ScreenWidth]</width>
+<height>$INFO[System.ScreenHeight]</height>
             </control>
         </control>
     </controls>
