@@ -1,2 +1,3 @@
 # How to use the startup.xml file
-first
+first go and download startup.xml
+then go and locate 
